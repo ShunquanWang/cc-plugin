@@ -1,0 +1,47 @@
+{
+    "name": "ecc-ai-plugin",
+    "owner": {
+      "name": "wangshunquan",
+      "email": "wangshunquan@ecc.com"
+    },
+    "metadata": {
+      "description": "Claude Code plugin for ECC Agile platform"
+    },
+    "plugins": [
+      {
+        "name": "ecc-ai-plugin",
+        "source": "./",
+        "description": "Claude Code plugin for ECC Agile platform",
+        "version": "1.10.0",
+        "author": {
+          "name": "wangshunquan",
+          "email": "wangshunquan@ecc.com"
+        },
+        "homepage": "https://ecc.ai",
+        "repository": "https://github.com/ecc-ai/ecc-ai-plugin",
+        "license": "MIT",
+        "keywords": [
+          "agents",
+          "skills",
+          "hooks",
+          "commands",
+          "tdd",
+          "code-review",
+          "security",
+          "best-practices"
+        ],
+        "category": "workflow",
+        "tags": [
+          "agents",
+          "skills",
+          "hooks",
+          "commands",
+          "tdd",
+          "code-review",
+          "security",
+          "best-practices"
+        ],
+        "strict": false
+      }
+    ]
+  }

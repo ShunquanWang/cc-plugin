@@ -1,0 +1,12 @@
+{
+  "name": "ecc-ai-plugin",
+  "version": "0.1.0",
+  "description": "Claude Code plugin for ECC Agile platform",
+  "author": {
+    "name": "wangshunquan"
+  },
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks.json",
+  "commands": ["./commands/"]
+}
