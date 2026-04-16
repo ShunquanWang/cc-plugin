@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**ecc-ai-plugin** is a Claude Code plugin for the ECC Agile platform. It bundles skills, commands, agents, and hooks to extend Claude Code with ECC-specific workflows.
+**cc-plugin** is a Claude Code plugin for the ECC Agile platform. It bundles skills, commands, agents, and hooks to extend Claude Code with ECC-specific workflows.
 
 - Marketplace: `.claude-plugin/marketplace.json`
 - Plugin manifest: `.claude-plugin/plugin.json`
@@ -50,7 +50,7 @@ claude --debug
 
 ### Path variables available in hooks and MCP configs
 - `${CLAUDE_PLUGIN_ROOT}` — absolute path to the plugin directory
-- `${CLAUDE_PLUGIN_DATA}` — persistent data dir (`~/.claude/plugins/data/ecc-ai-plugin/`)
+- `${CLAUDE_PLUGIN_DATA}` — persistent data dir (`~/.claude/plugins/data/cc-plugin/`)
 
 ### plugin.json key fields
 ```json

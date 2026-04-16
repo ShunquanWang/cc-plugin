@@ -1,4 +1,4 @@
-# ecc-ai-plugin
+# cc-plugin
 
 Claude Code plugin for the ECC Agile platform — brings ECC-specific skills, commands, and agents directly into your Claude Code workflow.
 
@@ -11,7 +11,7 @@ Claude Code plugin for the ECC Agile platform — brings ECC-specific skills, co
 claude plugin marketplace add https://github.com/ShunquanWang/cc-plugin
 
 # Install the plugin
-claude plugin install ecc-ai-plugin@ecc-ai-plugin
+claude plugin install cc-plugin@cc-plugin
 ```
 
 ### Option 2: From Local Directory
@@ -21,13 +21,13 @@ claude plugin install ecc-ai-plugin@ecc-ai-plugin
 git clone https://github.com/ShunquanWang/cc-plugin.git
 
 # Install from local path
-claude plugin install ecc-ai-plugin@local --plugin-dir ./ecc-ai-plugin
+claude plugin install cc-plugin@local --plugin-dir ./cc-plugin
 ```
 
 Or load for a single session only:
 
 ```bash
-claude --plugin-dir ./ecc-ai-plugin
+claude --plugin-dir ./cc-plugin
 ```
 
 ### Option 3: Self-Hosted Marketplace
@@ -39,7 +39,7 @@ If your team hosts a private Claude Code marketplace, add it and install from th
 claude plugin marketplace add https://github.com/your-org/your-marketplace
 
 # Install the plugin from that marketplace
-claude plugin install ecc-ai-plugin@your-marketplace
+claude plugin install cc-plugin@your-marketplace
 ```
 
 To set up your own marketplace, create a `marketplace.json` at `.claude-plugin/marketplace.json` in a git repo:
@@ -50,7 +50,7 @@ To set up your own marketplace, create a `marketplace.json` at `.claude-plugin/m
   "owner": { "name": "Your Team", "email": "team@example.com" },
   "plugins": [
     {
-      "name": "ecc-ai-plugin",
+      "name": "cc-plugin",
       "source": "./",
       "description": "Claude Code plugin for ECC Agile platform",
       "version": "1.10.0"
@@ -66,7 +66,7 @@ Then push the repo and share the URL with your team.
 By default, plugins are installed for the current user. To share with your team via the project repo:
 
 ```bash
-claude plugin install ecc-ai-plugin@ecc-ai-plugin --scope project
+claude plugin install cc-plugin@cc-plugin --scope project
 ```
 
 This writes to `.claude/settings.json` which can be committed to version control.

@@ -1,5 +1,5 @@
 {
-    "name": "ecc-ai-plugin",
+    "name": "cc-plugin",
     "owner": {
       "name": "wangshunquan",
       "email": "wangshunquan@ecc.com"
@@ -9,7 +9,7 @@
     },
     "plugins": [
       {
-        "name": "ecc-ai-plugin",
+        "name": "cc-plugin",
         "source": "./",
         "description": "Claude Code plugin for ECC Agile platform",
         "version": "1.10.0",
