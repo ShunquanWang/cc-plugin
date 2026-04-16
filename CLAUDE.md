@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - Marketplace: `.claude-plugin/marketplace.json`
 - Plugin manifest: `.claude-plugin/plugin.json`
-- Repository: https://github.com/ecc-ai/ecc-ai-plugin
+- Repository: https://github.com/ShunquanWang/ecc-ai-plugin
 
 ## Plugin Development Commands
 

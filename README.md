@@ -8,7 +8,7 @@ Claude Code plugin for the ECC Agile platform — brings ECC-specific skills, co
 
 ```bash
 # Add the ECC marketplace
-claude plugin marketplace add https://github.com/ecc-ai/ecc-ai-plugin
+claude plugin marketplace add https://github.com/ShunquanWang/ecc-ai-plugin
 
 # Install the plugin
 claude plugin install ecc-ai-plugin@ecc-ai-plugin
@@ -18,7 +18,7 @@ claude plugin install ecc-ai-plugin@ecc-ai-plugin
 
 ```bash
 # Clone the repo
-git clone https://github.com/ecc-ai/ecc-ai-plugin.git
+git clone https://github.com/ShunquanWang/ecc-ai-plugin.git
 
 # Install from local path
 claude plugin install ecc-ai-plugin@local --plugin-dir ./ecc-ai-plugin
