@@ -6,7 +6,6 @@
     "name": "wangshunquan"
   },
   "skills": "./skills/",
-  "agents": "./agents/",
   "hooks": "./hooks/hooks.json",
   "commands": ["./commands/"]
 }
